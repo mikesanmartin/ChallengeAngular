@@ -1,5 +1,11 @@
 <mat-toolbar>
-    <mat-toolbar-row>Login</mat-toolbar-row>
-    <mat-toolbar-row>Platos</mat-toolbar-row>
-    <mat-toolbar-row>Buscador de platos</mat-toolbar-row>
+    <mat-toolbar-row>
+        <a [routerLink]="['/login']">Login</a>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+        <a [routerLink]="['/home']">Platos</a>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+        <a [routerLink]="['/search']">Buscador de platos</a>
+    </mat-toolbar-row>
 </mat-toolbar>
